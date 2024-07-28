@@ -562,8 +562,11 @@ body {
   .main-blog__item {
     flex-basis: 460px;
   }
-  .main-blog__list {
+  /* .main-blog__list {
     gap: 67px 20px;
+  } */
+  .main-blog__list {
+    gap: 30px 20px;
   }
   .main-blog__link {
     margin-top: 60px;
@@ -695,6 +698,9 @@ body {
 
   .prioritise__list {
     gap: 30px 100px;
+  }
+  .main-blog__item:nth-child(even) {
+    margin-left: 98px;
   }
 }
 
@@ -830,7 +836,7 @@ body {
     gap: 30px 0;
   }
   .mailing-list__email {
-    width: 230px;
+    width: 275px;
     /* 324 */
     margin-right: 20px;
   }
