@@ -557,10 +557,12 @@ body {
     padding: 120px 0;
   }
   .main-blog__item-img {
-    max-width: 230px;
+    /* max-width: 230px; */
+    max-width: 200px;
   }
   .main-blog__item {
-    flex-basis: 460px;
+    /* flex-basis: 460px; */
+    flex-basis: 390px;
   }
   /* .main-blog__list {
     gap: 67px 20px;
@@ -887,7 +889,8 @@ body {
     width: 360px;
   }
   .assortment__img {
-    max-width: 160px;
+    /* max-width: 160px; */
+    max-width: 173px;
   }
   .assortment {
     margin-bottom: 60px;
