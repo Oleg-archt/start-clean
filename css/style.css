@@ -611,6 +611,24 @@ body {
   }
 }
 
+@media (max-width: 960px) {
+  .footer__inner {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+  }
+  .footer__products,
+  .footer__company {
+    grid-row: span 3;
+  }
+  .footer__contacts {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+  }
+  .footer__copy {
+    margin-right: 120px;
+  }
+}
+
 @media (max-width: 871px) {
   .menu__list {
     transform: translateY(-100%);
@@ -749,6 +767,18 @@ body {
     gap: 30px 133px;
   }
 
+  .prioritise__title {
+    font-size: 19px;
+    margin-bottom: 10px;
+    font-weight: 300;
+  }
+
+  .prioritise__text {
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 17px;
+  }
+
   .footer__inner {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 1fr;
@@ -791,6 +821,58 @@ body {
   .mailing-list__email {
     width: 388px;
     margin-right: 10px;
+  }
+}
+
+@media (max-width: 650px) {
+  .prioritise {
+    padding: 80px 60px;
+  }
+  .footer__inner {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer__blockquote {
+    width: 100%;
+  }
+  .footer__blockquote-text {
+    margin-bottom: 10px;
+    margin-top: 50px;
+  }
+  .footer__contacts {
+    margin-top: 50px;
+    width: 100%;
+  }
+  .footer__contacts-title {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .footer__contacts-text {
+    text-align: center;
+  }
+  .footer__nav {
+    flex-wrap: nowrap;
+  }
+  .footer__social {
+    margin-left: 30px;
+  }
+  .footer__copy {
+    margin-right: auto;
+  }
+  .footer__products {
+    margin-right: 100px;
+    padding-right: 20px;
+  }
+  .footer__company {
+    padding-right: 20px;
+    margin-right: 55px;
+  }
+  .footer__products-title,
+  .footer__company-title {
+    margin-bottom: 30px;
+  }
+  .footer {
+    padding: 50px 0 10px;
   }
 }
 
@@ -879,7 +961,8 @@ body {
   }
   .footer__products {
     margin-right: auto;
-    padding-right: 20px;
+    /* padding-right: 20px; */
+    padding-right: 10px;
   }
   .footer__company {
     padding-right: 20px;
