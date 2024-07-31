@@ -524,6 +524,33 @@ body {
   gap: 0 20px;
 }
 
+@media (max-width: 1260px) {
+  .mailing-list__email {
+    width: 400px;
+  }
+}
+
+@media (max-width: 1185px) {
+  .mailing-list__email {
+    width: 380px;
+  }
+}
+
+@media (max-width: 1140px) {
+  .mailing-list__email {
+    width: 350px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .mailing-list__email {
+    width: 330px;
+  }
+  .mailing-list__btn {
+    padding: 5px 20px;
+  }
+}
+
 @media (max-width: 1000px) {
   .user-actions__item-search {
     margin-left: 30px;
